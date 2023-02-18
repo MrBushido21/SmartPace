@@ -631,9 +631,17 @@ body._lock {
 }
 .page .estate__image {
   position: relative;
+  overflow: hidden;
 }
 .page .estate__img {
   width: 100%;
+  cursor: pointer;
+}
+.page .estate__img:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 .page .estate__links {
   position: absolute;
